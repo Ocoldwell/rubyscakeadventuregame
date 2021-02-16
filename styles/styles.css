@@ -5,14 +5,33 @@ body {
   background: black;
   font-family: "Hack", sans-serif;
   font-size: 18px;
-  color: #41FF00;
+  color: #41ff00;
 }
-
-span {
+body #onkeypress__active {
+  animation: blink 2s linear 1s infinite forwards;
+}
+body #onkeypress__active span {
   padding: 2px;
-  border: 1px #41FF00 solid;
+  border: 1px #41ff00 solid;
+}
+body pre {
+  font-size: 8px;
 }
 
-pre {
-  font-size: 8px;
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
