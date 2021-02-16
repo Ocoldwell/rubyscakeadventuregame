@@ -1,10 +1,13 @@
+* {
+  font-family: "Hack", sans-serif;
+  font-size: 18px;
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   background: black;
-  font-family: "Hack", sans-serif;
-  font-size: 18px;
   color: #41ff00;
 }
 body #onkeypress__active {

@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: $fontcolor;
+  #onkeypress__active {
+    animation:$blinkanimation;
+    span {
+      padding: 2px;
+      border: 1px $fontcolor solid;
+    }
+  }
+  pre {
+    font-size: 8px;
+  }
+}

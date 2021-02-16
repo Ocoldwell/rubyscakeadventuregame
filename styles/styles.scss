@@ -1,40 +1,6 @@
-$fontcolor: #41ff00;
+@import "./variables";
+@import "./typography";
+@import "./layout";
+@import "./animations";
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: black;
-  font-family: "Hack", sans-serif;
-  font-size: 18px;
-  color: $fontcolor;
-  #onkeypress__active {
-    animation:blink 2s linear 1s infinite forwards ;
-    span {
-      padding: 2px;
-      border: 1px $fontcolor solid;
-    }
-  }
 
-  pre {
-    font-size: 8px;
-  }
-}
-
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
