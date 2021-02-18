@@ -2,3 +2,11 @@
   font-family: "Hack", sans-serif;
   font-size: 18px;
 }
+
+#story-text {
+  font-size: 1em;
+}
+
+#story-text > span {
+  border-bottom: 2px solid $fontcolor;
+}

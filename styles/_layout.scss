@@ -1,8 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+input {
+  border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: black;
+  background: $background-color;
   color: $fontcolor;
   #onkeypress__active {
     animation:$blinkanimation;
@@ -14,4 +28,17 @@ body {
   pre {
     font-size: 8px;
   }
+}
+#console__field {
+ margin: 10px;
+ padding: 10px;
+ height: 400px;
+ width: 300px;
+ text-align: right;
+}
+
+#text__input {
+  background:$background-color;
+  color: $fontcolor;
+  text-align: right;
 }
