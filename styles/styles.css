@@ -75,14 +75,6 @@ body pre {
     opacity: 1;
   }
 }
-@keyframes blinkunderscore {
-  from, to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: #fff;
-  }
-}
 .hidden {
   display: none;
 }
