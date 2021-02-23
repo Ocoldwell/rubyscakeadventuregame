@@ -1,9 +1,8 @@
 export const firstLocationText = {
   bedroomStartText: [
     "Hi! My name is Ruby, I've just woken up and no-one is here! What do I do?",
-    "To make a choice in this game you use the keyboard and pick from two choices, 1 and 2",
-    "I can see a ball and a slipper, which do I choose?",
-    "Ball = 1, Slipper = 2",
+    "To make a choice in this game you use the keyboard and pick from two choices, 1 and 2 using the () notation",
+    "I can see a ball(1) and a slipper(2), which do I choose?",
   ],
   bedroomChoiceOne: [
     "I've picked up the ball and now I need someone to throw it, where's Dad?",
@@ -33,19 +32,19 @@ export const firstChoiceLocationText = {
     "You aren't really sure how it happened, you fell asleep and you woke up without the squeak and apparently you had a diamond in your stomach. YOU ARE A GOOD DOG 112",
   ],
   landingChoiceTwo: [
-    "I've eaten the ball, and now I squeak when I breath, what fun.",
+    "I run outside of my den and can't see my Dad, but I can smell him but there's also a smell that I recognise and I start to drool",
     "Find Dad(1) or Go exploring(2)",
   ],
   endingThree: [
-    "You find your dad in the bathroom and squeak at him in a series of attempted barks 121",
+    "I find Dad in the bathroom, he wants to leave me! He's doing that thing to his face again", "I bark at him anxiously, and he turns around and he's got a giant white beard, I bark at him again and he shuts me out of the bathroom", "Dad is going to leave me, you think and you slink back to your basket. GAME OVER!! 121 "
   ],
-  endingFour: ["I am a placeholder for now 122"],
+  endingFour: ["You follow the smell downstairs and find yourself at the precipice of the kitchen, it's CAKE but I will have to drop my ball.", "You drop your ball and the bounce alerts your mum to presence and she shuts you out.", "You did not get the cake, and now you have no ball either. GAME OVER!!"],
 };
 //Choice Two
 export const secondChoiceLocationText = {
-  bathroomChoiceOne: ["I am a placeholder for 21", "Choose one or two"],
-  endingFive: ["I am a placeholder for 211"],
-  endingSix: ["I am a placeholder for  212"],
+  bathroomChoiceOne: ["I chew the slipper and I am able to ingest the smell of my parents so that they will always be with me.", "They don't seem to like that logic much", "You can decide to move on to the living room (1) or follow the smell (2) "],
+  endingFive: ["You arrive at the living room to find a new someone waiting for you, it's glassy eyes stare at you and you decide this is the perfect thing to bite", "'Who's a good girl', you hear, after biting the creature for a few minutes and you get some scritches from your mum. YOU WIN!!"],
+  endingSix: ["You follow the smell into the kitchen and see 'CAKE'", "You acquire the CAKE", "You consume the CAKE and gain 10HP and EXP", "You subsume into your true form as DOGGO. YOU WIN!!" ],
   bathroomChoiceTwo: ["I am a placeholder for 22", "choose one or two"],
   endingSeven: ["I am a placeholder for now 221"],
   endingEight: ["I am a placeholder for now I am plaholder for 222"],

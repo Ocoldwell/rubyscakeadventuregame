@@ -4,10 +4,11 @@ import {
   secondChoiceLocationText,
 } from "./gametext.js";
 let time = 0;
-let choiceTrack = null;
+let choiceTrack = 0;
+const playAgain = "Would you like to play again? Press any control key";
 const keyHandler = (event) => {
   console.log(time);
-  //Stops type animation if already playinh
+  //Stops type animation if already playing
   if (isTyping == true) {
     return;
     //Initalises game
@@ -80,12 +81,12 @@ const startGame = () => {
   document.getElementById("onkeypress__active").classList.add("hidden");
   document.getElementById("#ruby-dog").classList.add("hidden");
   document.getElementById("console__field").classList.remove("hidden");
-  document.getElementById("console__field").classList.add("active");
+  isTyping= true;
   arrayChoiceSelector(firstLocationText, choiceIndex);
 };
 
 //Typewriter function elements. Setting index outside of scope.
-const speed = 10;
+const speed = 25;
 let indexOfText = 0;
 let isTyping = false;
 const typeWriter = (text) => {
@@ -112,6 +113,9 @@ const resetNewArray = () => {
   document.getElementById("story__text").innerHTML = "";
   indexOfText = 0;
 };
+const gameReset = (event) => {
+  window.location.reload();
+}
 let currentObject = {};
 let currentRoom = [];
 let choiceIndex = 0;
@@ -132,7 +136,10 @@ const arrayChoiceSelector = (object, index) => {
   }
 };
 
+
 window.addEventListener("keydown", keyHandler);
+const resetButton = document.getElementById("reset-button");
+resetButton.addEventListener('click', gameReset)
 //needs user input --> needs to be submitted.
 //provide commands at end of sentence.
 //provide output depending on commands entered (hidden commands?)
