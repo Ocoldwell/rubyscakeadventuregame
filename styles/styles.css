@@ -397,6 +397,10 @@ body pre {
   text-align: right;
 }
 
+#reset-button {
+  margin: 10px;
+}
+
 @keyframes blink {
   0% {
     opacity: 1;

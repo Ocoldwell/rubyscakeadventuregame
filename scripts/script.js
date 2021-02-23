@@ -5,7 +5,6 @@ import {
 } from "./gametext.js";
 let time = 0;
 let choiceTrack = 0;
-const playAgain = "Would you like to play again? Press any control key";
 const keyHandler = (event) => {
   console.log(time);
   //Stops type animation if already playing

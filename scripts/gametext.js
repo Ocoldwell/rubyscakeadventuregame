@@ -1,7 +1,7 @@
 export const firstLocationText = {
   bedroomStartText: [
+    "To make a choice in this game you use the enter key to proceed the story and use the 1 and 2 key when prompted",
     "Hi! My name is Ruby, I've just woken up and no-one is here! What do I do?",
-    "To make a choice in this game you use the keyboard and pick from two choices, 1 and 2 using the () notation",
     "I can see a ball(1) and a slipper(2), which do I choose?",
   ],
   bedroomChoiceOne: [
